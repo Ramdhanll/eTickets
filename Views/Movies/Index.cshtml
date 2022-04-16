@@ -1,0 +1,66 @@
+@model IEnumerable<Movie>
+
+@{
+   ViewData["Title"] = "List of Movies";
+}
+
+<div class="pt-3">
+   <div class="row px-5 ">
+      @foreach (var item in Model)
+      {
+         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12 rounded mb-5">
+            <div class="card" style="width: 19rem; ">
+               <img class="card-img-top" src="@item.ImageURL" alt="Card image cap">
+               <div class="card-body">
+                  <div class="d-flex justify-content-between mb-3">
+                     <h5 class="pt-1 card-title align-self-center">@item.Name</h5>
+                     <button class="btn btn-outline-warning">
+                        <i class="fas fa-edit    "></i>
+                     </button>
+                  </div>
+                  <p class="card-text">@item.Description</p>
+                  <ul class="list-group list-group-flush">
+                     <li class=" list-group-item ">
+                        <strong>Cinema: </strong>
+                        @item.Cinema.Name
+                     </li>
+                     <li class=" list-group-item">
+                        <strong>Category: </strong>
+                        @item.MovieCategory
+                     </li>
+                     <li class="list-group-item">
+                        <strong>Start Date: </strong>
+                        @item.StartDate
+                     </li>
+                     <li class="list-group-item">
+                        <strong>End Date: </strong>
+                        @item.EndDate
+                     </li>
+                     <li class="list-group-item">
+                        <strong>Status: </strong>
+                        @if (DateTime.Now >= item.StartDate && DateTime.Now <= item.EndDate)
+                        {
+                           <span class="badge bg-success text-white">AVAILABLE</span>
+                        }
+                        else
+                        {
+                           <span class="badge bg-primary text-white">UPCOMING</span>
+                        }
+                     </li>
+                  </ul>
+               </div>
+               <div class="card-footer">
+                  <div class="d-flex justify-content-between mb-3">
+                     <button class="btn btn-outline-success">
+                        <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                     </button>
+                     <button class="btn btn-outline-primary">
+                        <i class="fa fa-eye" aria-hidden="true"></i> Show Detail
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      }
+   </div>
+</div>
