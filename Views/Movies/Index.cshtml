@@ -30,17 +30,21 @@
                      </li>
                      <li class="list-group-item">
                         <strong>Start Date: </strong>
-                        @item.StartDate
+                        @item.StartDate.ToString("dd MMMM yy")
                      </li>
                      <li class="list-group-item">
                         <strong>End Date: </strong>
-                        @item.EndDate
+                        @item.EndDate.ToString("dd MMMM yy")
                      </li>
                      <li class="list-group-item">
                         <strong>Status: </strong>
                         @if (DateTime.Now >= item.StartDate && DateTime.Now <= item.EndDate)
                         {
                            <span class="badge bg-success text-white">AVAILABLE</span>
+                        }
+                        else if (DateTime.Now > item.EndDate)
+                        {
+                           <span class="badge bg-danger text-white">EXPIRED</span>
                         }
                         else
                         {
@@ -53,6 +57,7 @@
                   <div class="d-flex justify-content-between mb-3">
                      <button class="btn btn-outline-success">
                         <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                        @item.Price.ToString("c")
                      </button>
                      <button class="btn btn-outline-primary">
                         <i class="fa fa-eye" aria-hidden="true"></i> Show Detail

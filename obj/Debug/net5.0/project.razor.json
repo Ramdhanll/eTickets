@@ -15619,6 +15619,11 @@
   "RootNamespace": "eTickets",
   "Documents": [
     {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Actors\\Details.cshtml",
+      "TargetPath": "Views\\Actors\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15629,8 +15634,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Actors\\Create.cshtml",
+      "TargetPath": "Views\\Actors\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15666,11 +15671,6 @@
     {
       "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Movies\\Index.cshtml",
       "TargetPath": "Views\\Movies\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
