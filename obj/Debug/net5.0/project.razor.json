@@ -15624,6 +15624,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Producers\\Create.cshtml",
+      "TargetPath": "Views\\Producers\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Producers\\Details.cshtml",
+      "TargetPath": "Views\\Producers\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15631,6 +15641,21 @@
     {
       "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Cinemas\\Index.cshtml",
       "TargetPath": "Views\\Cinemas\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Producers\\Delete.cshtml",
+      "TargetPath": "Views\\Producers\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Cinemas\\Edit.cshtml",
+      "TargetPath": "Views\\Cinemas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Cinemas\\Delete.cshtml",
+      "TargetPath": "Views\\Cinemas\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15649,6 +15674,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Shared\\NotFound.cshtml",
+      "TargetPath": "Views\\Shared\\NotFound.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Movies\\Details.cshtml",
+      "TargetPath": "Views\\Movies\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15659,8 +15694,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Cinemas\\Create.cshtml",
+      "TargetPath": "Views\\Cinemas\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Actors\\Delete.cshtml",
+      "TargetPath": "Views\\Actors\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15669,8 +15714,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Producers\\Edit.cshtml",
+      "TargetPath": "Views\\Producers\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Cinemas\\Details.cshtml",
+      "TargetPath": "Views\\Cinemas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Movies\\Index.cshtml",
       "TargetPath": "Views\\Movies\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Actors\\Edit.cshtml",
+      "TargetPath": "Views\\Actors\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -59,9 +59,9 @@
                         <i class="fa fa-cart-plus" aria-hidden="true"></i>
                         @item.Price.ToString("c")
                      </button>
-                     <button class="btn btn-outline-primary">
+                     <a class="btn btn-outline-primary" asp-action="Details" asp-route-id="@item.Id">
                         <i class="fa fa-eye" aria-hidden="true"></i> Show Detail
-                     </button>
+                     </a>
                   </div>
                </div>
             </div>

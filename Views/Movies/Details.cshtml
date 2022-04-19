@@ -1,0 +1,17 @@
+@model Movie
+
+@{
+   ViewData["Title"] = "List of Movies";
+}
+
+<div class="pt-3 m-3">
+   <div class="px-5 py-2 row">
+      <div class="col-4 ">
+         <img src="@Model.ImageURL" alt="@Model.Name" width="400px" class="rounded">
+      </div>
+      <div class="col-8">
+         <h1>@Model.Name</h1>
+         @* <h3>Cinema: @Model.Cinema.N</h3> *@
+      </div>
+   </div>
+</div>
