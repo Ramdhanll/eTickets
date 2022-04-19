@@ -14,9 +14,9 @@
                <div class="card-body">
                   <div class="d-flex justify-content-between mb-3">
                      <h5 class="pt-1 card-title align-self-center">@item.Name</h5>
-                     <button class="btn btn-outline-warning">
-                        <i class="fas fa-edit    "></i>
-                     </button>
+                     <a class="btn btn-outline-warning" asp-action="Edit" asp-route-id="@item.Id">
+                        <i class="fas fa-edit"></i>
+                     </a>
                   </div>
                   <p class="card-text">@item.Description</p>
                   <ul class="list-group list-group-flush">
@@ -69,3 +69,5 @@
       }
    </div>
 </div>
+
+@await Html.PartialAsync("_CreateItem", "Movies")

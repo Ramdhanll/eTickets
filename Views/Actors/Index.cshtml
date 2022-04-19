@@ -43,10 +43,6 @@
          }
       </tbody>
    </table>
-   <div class="text-white" style="position: fixed; right: 25px; bottom: 70px">
-      <a asp-controller="Actors" asp-action="Create" class="btn btn-success">
-         <i class="fa fa-plus-circle" aria-hidden="true"></i>
-         Add New
-      </a>
-   </div>
+   @await Html.PartialAsync("_CreateItem", "Actors")
+
 </div>
