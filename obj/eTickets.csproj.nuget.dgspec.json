@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj": {}
+    "c:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj": {}
   },
   "projects": {
-    "C:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj": {
+    "c:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj",
+        "projectUniqueName": "c:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj",
         "projectName": "eTickets",
-        "projectPath": "C:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj",
+        "projectPath": "c:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj",
         "packagesPath": "C:\\Users\\erdev\\.nuget\\packages\\",
-        "outputPath": "C:\\Ramadhani\\Development\\Website\\eTickets\\obj\\",
+        "outputPath": "c:\\Ramadhani\\Development\\Website\\eTickets\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erdev\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.6, )"

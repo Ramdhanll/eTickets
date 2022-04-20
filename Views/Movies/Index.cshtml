@@ -55,10 +55,11 @@
                </div>
                <div class="card-footer">
                   <div class="d-flex justify-content-between mb-3">
-                     <button class="btn btn-outline-success">
+                     <a class="btn btn-outline-success" asp-controller="Orders" asp-action="AddItemToShoppingCart"
+                     asp-route-id="@item.Id">
                         <i class="fa fa-cart-plus" aria-hidden="true"></i>
                         @item.Price.ToString("c")
-                     </button>
+                     </a>
                      <a class="btn btn-outline-primary" asp-action="Details" asp-route-id="@item.Id">
                         <i class="fa fa-eye" aria-hidden="true"></i> Show Detail
                      </a>

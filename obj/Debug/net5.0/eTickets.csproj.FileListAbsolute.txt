@@ -88,3 +88,12 @@ C:\Ramadhani\Development\Website\eTickets\obj\Debug\net5.0\Razor\Views\Movies\De
 C:\Ramadhani\Development\Website\eTickets\obj\Debug\net5.0\Razor\Views\Movies\Create.cshtml.g.cs
 C:\Ramadhani\Development\Website\eTickets\obj\Debug\net5.0\Razor\Views\Shared\_CreateItem.cshtml.g.cs
 C:\Ramadhani\Development\Website\eTickets\obj\Debug\net5.0\Razor\Views\Movies\Edit.cshtml.g.cs
+C:\Ramadhani\Development\Website\eTickets\obj\Debug\net5.0\Razor\Views\Orders\ShoppingCart.cshtml.g.cs
+C:\Ramadhani\Development\Website\eTickets\obj\Debug\net5.0\Razor\Views\Orders\Index.cshtml.g.cs
+C:\Ramadhani\Development\Website\eTickets\obj\Debug\net5.0\Razor\Views\Shared\Components\ShoppingCartSummary\Default.cshtml.g.cs
+C:\Ramadhani\Development\Website\eTickets\obj\Debug\net5.0\Razor\Views\Orders\OrderCompleted.cshtml.g.cs
+C:\Ramadhani\Development\Website\eTickets\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Ramadhani\Development\Website\eTickets\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Ramadhani\Development\Website\eTickets\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Ramadhani\Development\Website\eTickets\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Ramadhani\Development\Website\eTickets\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll

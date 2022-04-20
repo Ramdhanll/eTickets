@@ -13566,6 +13566,23 @@
         }
       },
       {
+        "HashCode": 2122253014,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ShoppingCartSummaryViewComponentTagHelper",
+        "AssemblyName": "eTickets",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:shopping-cart-summary"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ShoppingCartSummaryViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ShoppingCartSummary"
+        }
+      },
+      {
         "HashCode": 141407075,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -15634,6 +15651,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Orders\\ShoppingCart.cshtml",
+      "TargetPath": "Views\\Orders\\ShoppingCart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15719,6 +15741,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Shared\\Components\\ShoppingCartSummary\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\ShoppingCartSummary\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Actors\\Delete.cshtml",
       "TargetPath": "Views\\Actors\\Delete.cshtml",
       "FileKind": "mvc"
@@ -15726,6 +15753,11 @@
     {
       "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Orders\\Index.cshtml",
+      "TargetPath": "Views\\Orders\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15741,6 +15773,11 @@
     {
       "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Movies\\Index.cshtml",
       "TargetPath": "Views\\Movies\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Ramadhani\\Development\\Website\\eTickets\\Views\\Orders\\OrderCompleted.cshtml",
+      "TargetPath": "Views\\Orders\\OrderCompleted.cshtml",
       "FileKind": "mvc"
     },
     {

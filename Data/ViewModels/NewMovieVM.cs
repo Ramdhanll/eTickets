@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using eTickets.Base;
 using eTickets.Data;
 
-namespace eTickets.Models
+namespace eTickets.ViewModels
 {
    public class NewMovieVM
    {

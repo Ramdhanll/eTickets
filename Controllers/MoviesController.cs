@@ -6,6 +6,7 @@ namespace eTickets.Controllers
    using eTickets.Data;
    using eTickets.Models;
    using eTickets.Services;
+   using eTickets.ViewModels;
    using Microsoft.AspNetCore.Mvc;
    using Microsoft.AspNetCore.Mvc.Rendering;
    using Microsoft.EntityFrameworkCore;
