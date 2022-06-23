@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj": {}
+    "C:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj": {}
   },
   "projects": {
-    "c:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj": {
+    "C:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj",
+        "projectUniqueName": "C:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj",
         "projectName": "eTickets",
-        "projectPath": "c:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj",
+        "projectPath": "C:\\Ramadhani\\Development\\Website\\eTickets\\eTickets.csproj",
         "packagesPath": "C:\\Users\\erdev\\.nuget\\packages\\",
-        "outputPath": "c:\\Ramadhani\\Development\\Website\\eTickets\\obj\\",
+        "outputPath": "C:\\Ramadhani\\Development\\Website\\eTickets\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erdev\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
         }
       }
     }

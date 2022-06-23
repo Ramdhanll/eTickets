@@ -6,7 +6,8 @@ namespace eTickets.Controllers
    using eTickets.Data;
    using eTickets.Models;
    using eTickets.Services;
-   using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Mvc;
 
    public class ActorsController : Controller
    {
@@ -49,7 +50,7 @@ namespace eTickets.Controllers
          return View(actorDetails);
       }
 
-      public async Task<IActionResult> Edit(int id)
+        public async Task<IActionResult> Edit(int id)
       {
 
          var actorDetails = await _service.GetByIdAsync(id);

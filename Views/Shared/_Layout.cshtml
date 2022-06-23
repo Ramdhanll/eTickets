@@ -31,27 +31,30 @@
                                 Movie
                             </a>
                         </li>
-                        <li class="nav-item dropdown show">
-                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item dropdown show">
+                                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa-solid fa-gear"></i> Management
-                            </a>
+                                    <i class="fa-solid fa-gear"></i> Management
+                                </a>
 
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" asp-controller="Cinemas" asp-action="Index">
-                                    <i class="fa fa-camera-retro" aria-hidden="true"></i>
-                                    Cinemas
-                                </a>
-                                <a class="dropdown-item" asp-controller="Producers" asp-action="Index">
-                                    <i class="fas fa-headset"></i>
-                                    Producers
-                                </a>
-                                <a class="dropdown-item" asp-controller="Actors" asp-action="Index">
-                                    <i class="fas fa-person-booth"></i>
-                                    Actors
-                                </a>
-                            </div>
-                        </li>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" asp-controller="Cinemas" asp-action="Index">
+                                        <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                                        Cinemas
+                                    </a>
+                                    <a class="dropdown-item" asp-controller="Producers" asp-action="Index">
+                                        <i class="fas fa-headset"></i>
+                                        Producers
+                                    </a>
+                                    <a class="dropdown-item" asp-controller="Actors" asp-action="Index">
+                                        <i class="fas fa-person-booth"></i>
+                                        Actors
+                                    </a>
+                                </div>
+                            </li>
+                        }
                     </ul>
 
                     <form class="form-inline my-2 my-lg-0" style="padding-right: 25px;" asp-controller="Movies"
@@ -66,20 +69,9 @@
                         @await Component.InvokeAsync("ShoppingCartSummary")
                     </ul>
 
-                    @* User profile section *@
-                    <div class="dropdown">
-                        <button class="btn btn-outline-success dropdown-toggle" type="button" id="profile-btn"
-                            data-toggle="dropdown" aria-expanded="false">
-                            <i class="fas fa-person-booth"></i> Hello User
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="profile-btn">
-                            <li>
-                                <a class="dropdown-item" asp-controller="Orders" asp-action="Index">
-                                    <i class="fa fa-list" aria-hidden="true"></i> Orders
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    <partial name="_Identity.cshtml" />
+
+
                 </div>
             </div>
         </nav>
